@@ -1,0 +1,7 @@
+def reverse_string(string):
+  if type(string)== str:
+    length = len(string)-1
+    while length>=0:
+      print(string[length],end='')
+      length -=1
+reverse_string("hello")
